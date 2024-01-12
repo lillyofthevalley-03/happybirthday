@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Life+Savers&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="clickme.css">
+
+  <title>Document</title>
+</head>
+<body>
+  <h1> Happy Birthday DeeAn! </h1>
+  <p> <img align="middle" src="gif1.gif" width="5%" height="5%"> Miss na kita babaita, dahil fossil ka na here is your happy birthday! <img align="middle" src="gif1.gif" width="5%" height="5%"> </p>
+  <p><button onclick="myFunction()" style="background-color: pink; font-family: 'Dancing Script', cursive; font-family: 'Life Savers', serif; padding: 20px; font-size: 20px;">Click me for your message!</button></p>
+
+  <div id="myDIV"> Your message</div>
+
+  
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      if (x.textContent === "Your message") {
+        x.innerHTML = 
+          "<p style='line-height: 1.5; letter-spacing: 1; font-size: 25px; font-family: 'Dancing Script', cursive; font-family: 'Life Savers', serif;'>" +
+          "Since it's your first birthday there sa USA, I though that it would be nice to look at some memories we made during grade 12 and the years before that, yung ibang pic galing kay Anne. Magaral ka mabuti diyan, ikaw mag totour saamin diyan para sa walang katapusang sleepover na puro plano. Love you Dee! Always know nandito kami for you, if need mo ng ppt from our grade 12 teachers I am willing to be a spokesperson AHAHAHAHA. Loves you Dee, Happy 19th birthday! </p>";
+      } else {
+        x.textContent = "Your message";
+      }
+    }
+  </script>
+<br> 
+<br> 
+<center>
+<img src="turo.gif" width="40%" height="40%"> 
+
+<center>
+<video width="400" controls>
+    <source src="pot.mp4" type="video/mp4">
+  </video>
+</center>
+
+
+<p><a href="https://drive.google.com/drive/folders/1fuO9ysu8748JjOxhx3vak0D2dDaMAQQx?usp=sharing"> Click this link for the gdrive! May memories ka talaga with us kasi nakasave sa Gdrive! </a> </a></p>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+body {
+    background-color: pink;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    text-align: center;
+    color: rgb(128, 0, 64);
+    border: hotpink;
+    background-color: rgba(255, 255, 255, 0.335);
+    padding: 10px
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Life Savers', serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 67px;
+}
+
+#myDIV {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Life Savers', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+video {
+    margin-top: 60px;
+}
+
+
